@@ -18,7 +18,7 @@ source-repository head
 
 library
   exposed-modules:     Data.RingBuffer
-  build-depends:       base >=4.7 && <4.21,
+  build-depends:       base >=4.7 && <4.22,
                        vector >=0.10 && <0.14,
                        mtl >=2.2 && <2.4,
                        primitive >=0.5 && <0.10,
